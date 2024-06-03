@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+body {
+	overflow: hidden;
+	text-align: center;
+}
+
+.ys {
+	background-color: aliceblue;
+	font-size: 20px;
+}
+
+.an {
+	font-size: 20px;
+}
+</style>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>选择</title>
+</head>
+<body>
+	<div class="ys">
+		<form name="Nform" method="post" action="ShowCartInf.jsp">
+			<table width="100%" border="0">
+				<tr>
+					<td colspan="4">请选择您要购买的花：</td>
+				</tr>
+				<tr>
+					<td width="25%">玫瑰花(59元)<input type="checkbox" name="mg"
+						value="mg"></td>
+					<td width="25%">百合花(69元)<input type="checkbox" name="bh"
+						value="bh"></td>
+					<td width="25%">蔷薇花(49元)<input type="checkbox" name="cw"
+						value="cw"></td>
+					<td width="25%">康乃馨(79元)<input type="checkbox" name="knx"
+						value="knx"></td>
+				</tr>
+				<tr>
+					<td colspan="4">购买数量:</td>
+				</tr>
+				<tr>
+					<td width="25%"><input type="text" name="mgNumber" size="5"></td>
+					<td width="25%"><input type="text" name="bhNumber" size="5"></td>
+					<td width="25%"><input type="text" name="cwNumber" size="5"></td>
+					<td width="25%"><input type="text" name="knxNumber" size="5"></td>
+				</tr>
+			</table>
+			<div>
+				<input type="submit" name="s" value="购买" class="an">&nbsp;&nbsp;
+				<input type="reset" name="r" value="重新挑选" class="an">
+			</div>
+			<br>
+			<div>
+				其他信息联系号码<a href="66666666">66666666</a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
